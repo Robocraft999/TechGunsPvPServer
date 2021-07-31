@@ -1,0 +1,755 @@
+[09:17:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[09:17:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[09:17:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[09:17:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[09:17:39] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Program Files (x86)\Minecraft\runtime\jre-x64
+[09:17:40] [main/INFO] [FML]: Searching C:\Users\Alexander\Desktop\PVPProjekt\Server\.\mods for mods
+[09:17:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[09:17:40] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[09:17:40] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.3.1-RC4082.jar
+[09:17:40] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[09:17:40] [main/WARN] [FML]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
+[09:17:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:17:40] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[09:17:40] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/Alexander/Desktop/PVPProjekt/Server/./mods/spongeforge-1.12.2-2838-7.3.1-RC4082.jar Service=LaunchWrapper Env=SERVER
+[09:17:40] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[09:17:40] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[09:17:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[09:17:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:17:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:17:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:17:42] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[09:17:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:17:42] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[09:17:42] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2822c6ff
+[09:17:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[09:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:17:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[09:17:43] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[09:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[09:17:43] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[09:17:44] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[09:17:44] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.item.EntityItemFrame], Method [func_184230_a]
+[09:17:44] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.item.EntityItemFrame Finished.
+[09:17:44] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[09:17:46] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[09:17:46] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[09:17:46] [main/WARN] [mixin]: @Mixin target net/minecraft/server/management/PlayerProfileCache$ProfileEntry is public in mixins.common.core.json:server.management.PlayerProfileCache_ProfileEntryAccessor and should be specified in value
+[09:17:48] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[09:17:49] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.world.chunk.storage.ExtendedBlockStorage], Method [func_76663_a]
+[09:17:49] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.world.chunk.storage.ExtendedBlockStorage Finished.
+[09:17:49] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[09:17:50] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[09:17:53] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.item.EntityItemFrame], Method [func_184230_a]
+[09:17:53] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.item.EntityItemFrame Finished.
+[09:17:54] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.ai.EntityAICreeperSwell], Method [func_75246_d]
+[09:17:54] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.ai.EntityAICreeperSwell Finished.
+[09:17:56] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[09:17:56] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[09:17:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[09:17:56] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[09:17:56] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[09:17:56] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[09:17:56] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[09:17:56] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/Alexander/Desktop/PVPProjekt/Server/./mods/spongeforge-1.12.2-2838-7.3.1-RC4082.jar!/mcmod.info
+[09:17:56] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[09:18:01] [Server thread/INFO] [FML]: Searching C:\Users\Alexander\Desktop\PVPProjekt\Server\.\mods for mods
+[09:18:02] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[09:18:02] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[09:18:03] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[09:18:03] [Server thread/WARN] [Sponge]: Plugin 'techgunspvpplugin' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
+Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
+[09:18:04] [Server thread/INFO] [FML]: Forge Mod Loader has identified 33 mods to load
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for enderiobase: assets/enderiobase/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for enderioconduits: assets/enderioconduits/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for enderiopowertools: assets/enderiopowertools/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for fastleafdecay: assets/fastleafdecay/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for morpheus: assets/morpheus/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for techgunspvpplugin: assets/techgunspvpplugin/lang/en_us.lang
+[09:18:04] [Server thread/WARN] [FML]: Missing English translation for universalmodifiers: assets/universalmodifiers/lang/en_us.lang
+[09:18:04] [Server thread/INFO] [FML]: FML has found a non-mod file AutoSave-1.12.2-1.0.11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[09:18:04] [Server thread/INFO] [FML]: FML has found a non-mod file AutoConfig-1.12.2-1.0.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[09:18:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, techguns_core, codechickenlib, crafttweaker, crafttweakerjei, endercore, enderio, enderiobase, enderioconduits, enderiopowertools, fastleafdecay, ftblib, ftbutilities, inventorytweaks, ironbackpacks, ironchest, jei, journeymap, morpheus, netherportalfix, simplegenerators, solarflux, techguns, techgunspvpplugin, theoneprobe, universalmodifiers, valkyrielib] at CLIENT
+[09:18:04] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, techguns_core, codechickenlib, crafttweaker, crafttweakerjei, endercore, enderio, enderiobase, enderioconduits, enderiopowertools, fastleafdecay, ftblib, ftbutilities, inventorytweaks, ironbackpacks, ironchest, jei, journeymap, morpheus, netherportalfix, simplegenerators, solarflux, techguns, techgunspvpplugin, theoneprobe, universalmodifiers, valkyrielib] at SERVER
+[09:18:05] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1497)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:212)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at java.security.AccessController.doPrivileged(Native Method)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at java.security.AccessController.doPrivileged(AccessController.java:713)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at crafttweaker.mc1120.CraftTweaker.lambda$onConstruction$1(CraftTweaker.java:86)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at crafttweaker.mc1120.CraftTweaker$$Lambda$430/806014938.run(Unknown Source)
+[09:18:05] [Thread-3/INFO] [STDERR]: [crafttweaker.mc1120.CraftTweaker:lambda$onConstruction$1:90]: 	at java.lang.Thread.run(Thread.java:745)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.validator.Validator.validate(Validator.java:260)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	... 20 more
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: 	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:145)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: 	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:131)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: 	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: 	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382)
+[09:18:05] [Thread-3/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:643]: 	... 26 more
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.power.forge.item.InternalPoweredItemMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.item.darksteel.upgrade.DarkSteelUpgradeMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.integration.thaumcraft.ThaumcraftArmorMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Skipping mixin due to missing dependencies: [thaumcraft]
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found annotation mixin: crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Registered mixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.power.forge.item.InternalPoweredItemMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.power.forge.item.IInternalPoweredItem
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.item.darksteel.upgrade.DarkSteelUpgradeMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.api.upgrades.IDarkSteelItem
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found mixin source class data for crazypants.enderio.base.paint.MobilityFlagForPaintedBlocksMixin.
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$ITexturePaintableBlock
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$INonSolidBlockPaintableBlock
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$IBlockPaintableBlock
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found interface target crazypants.enderio.base.paint.IPaintable$ISolidBlockPaintableBlock
+[09:18:06] [Server thread/WARN] [FML]: The declared version check handler method checkModLists on network mod id enderio is not accessible
+java.lang.NoSuchMethodException: crazypants.enderio.base.EnderIO.checkModLists(java.util.Map, net.minecraftforge.fml.relauncher.Side)
+	at java.lang.Class.getDeclaredMethod(Class.java:2130) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.common.network.internal.NetworkModHolder.<init>(NetworkModHolder.java:246) [NetworkModHolder.class:?]
+	at net.minecraftforge.fml.common.network.NetworkRegistry.register(NetworkRegistry.java:299) [NetworkRegistry.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:606) [FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelCrook from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelCrook (DarkSteelUpgradeMixin)
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:06] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:07] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemInventoryCharger from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:07] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemInventoryCharger (DarkSteelUpgradeMixin)
+[09:18:07] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:07] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:07] [Server thread/WARN] [FML]: The declared version check handler method checkModLists on network mod id enderioconduits is not accessible
+java.lang.NoSuchMethodException: crazypants.enderio.conduits.EnderIOConduits.checkModLists(java.util.Map, net.minecraftforge.fml.relauncher.Side)
+	at java.lang.Class.getDeclaredMethod(Class.java:2130) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.common.network.internal.NetworkModHolder.<init>(NetworkModHolder.java:246) [NetworkModHolder.class:?]
+	at net.minecraftforge.fml.common.network.NetworkRegistry.register(NetworkRegistry.java:299) [NetworkRegistry.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:606) [FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:07] [Server thread/WARN] [FML]: The declared version check handler method checkModLists on network mod id enderiopowertools is not accessible
+java.lang.NoSuchMethodException: crazypants.enderio.powertools.EnderIOPowerTools.checkModLists(java.util.Map, net.minecraftforge.fml.relauncher.Side)
+	at java.lang.Class.getDeclaredMethod(Class.java:2130) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.common.network.internal.NetworkModHolder.<init>(NetworkModHolder.java:246) [NetworkModHolder.class:?]
+	at net.minecraftforge.fml.common.network.NetworkRegistry.register(NetworkRegistry.java:299) [NetworkRegistry.class:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:606) [FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:08] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[09:18:08] [Server thread/INFO] [FML]: Found 1239 ObjectHolder annotations
+[09:18:08] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[09:18:08] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[09:18:08] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[09:18:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09:18:09] [Forge Version Check/INFO] [forge.VersionCheck]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.12.2
+[09:18:09] [Forge Version Check/INFO] [forge.VersionCheck]: [techguns] Starting version check at https://raw.githubusercontent.com/pWn3d1337/Techguns2/master/update.json
+[09:18:09] [Forge Version Check/INFO] [forge.VersionCheck]: [techguns] Found status: AHEAD Target: null
+[09:18:09] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[09:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[09:18:10] [Server thread/WARN] []: ========================================================
+[09:18:10] [Server thread/WARN] []: == Forge Debug Logging is ENABLED ======================
+[09:18:10] [Server thread/WARN] []: ========================================================
+[09:18:10] [Server thread/WARN] []: == This WILL slow down the game, so we recommend you  ==
+[09:18:10] [Server thread/WARN] []: == disable it unless you need it. See:                ==
+[09:18:10] [Server thread/WARN] []: == https://github.com/MinecraftForge/MinecraftForge/issues/6271
+[09:18:10] [Server thread/WARN] []: ========================================================
+[09:18:10] [Server thread/INFO] [enderio]: ========================================================
+[09:18:10] [Server thread/INFO] [enderio]: == Ender IO Debug Logging is DISABLED ==================
+[09:18:10] [Server thread/INFO] [enderio]: ========================================================
+[09:18:10] [Server thread/INFO] [enderio]: == This will not slow down the game, but you may miss ==
+[09:18:10] [Server thread/INFO] [enderio]: == out on information needed to diagnose issues. For  ==
+[09:18:10] [Server thread/INFO] [enderio]: == normal operation this is fine.                     ==
+[09:18:10] [Server thread/INFO] [enderio]: ========================================================
+[09:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[09:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Starting version check at http://www.olafkeijsers.net/fastleafdecay-update.json
+[09:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [fastleafdecay] Found status: UP_TO_DATE Target: null
+[09:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [solarflux] Starting version check at https://dccg.herokuapp.com/api/fmluc/246974
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedFence from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedFence (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedFenceGate from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedFenceGate (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedWall from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedWall (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedStairs from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedStairs (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedSlab from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedSlab (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedGlowstone from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedGlowstone (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedGlowstone$BlockPaintedGlowstoneNonSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$INonSolidBlockPaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedGlowstone$BlockPaintedGlowstoneNonSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedGlowstone$BlockPaintedGlowstoneSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedGlowstone$BlockPaintedGlowstoneSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedCarpet from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedCarpet (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedPressurePlate from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedPressurePlate (MobilityFlagForPaintedBlocksMixin)
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:10] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedRedstone from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedRedstone (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedRedstone$BlockPaintedRedstoneNonSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$INonSolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedRedstone$BlockPaintedRedstoneNonSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedRedstone$BlockPaintedRedstoneSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedRedstone$BlockPaintedRedstoneSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedStone from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedStone (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedSand from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedSand (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedTrapDoor from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedTrapDoor (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedDoor from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ITexturePaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedDoor (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedWorkbench from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedWorkbench (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian$BlockPaintedReinforcedObsidianNonSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$INonSolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian$BlockPaintedReinforcedObsidianNonSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian$BlockPaintedReinforcedObsidianSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedReinforcedObsidian$BlockPaintedReinforcedObsidianSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Forge Version Check/INFO] [forge.VersionCheck]: [solarflux] Found status: UP_TO_DATE Target: null
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedPackedIce from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedPackedIce (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedPackedIce$BlockPaintedPackedIceNonSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$INonSolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedPackedIce$BlockPaintedPackedIceNonSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.painted.BlockPaintedPackedIce$BlockPaintedPackedIceSolid from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.painted.BlockPaintedPackedIce$BlockPaintedPackedIceSolid (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.travelstaff.ItemTravelStaff from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.travelstaff.ItemTravelStaff (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.power.forge.item.AbstractPoweredItem from implemented interfaces: [crazypants/enderio/base/power/forge/item/IInternalPoweredItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.power.forge.item.AbstractPoweredItem (InternalPoweredItemMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.material.glass.BlockPaintedFusedQuartz from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.material.glass.BlockPaintedFusedQuartz (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.block.detector.BlockDetector from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.block.detector.BlockDetector (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelArmor (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 4 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, addCommonEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V, addBasicEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelShield from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelShield (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 2 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelSword from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelSword (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 2 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelPickaxe from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelPickaxe (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 5 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, addCommonEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V, addBasicEntries(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelAxe from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelAxe (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelBow from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelBow (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelShears from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelShears (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelTreetap from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelTreetap (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.darksteel.ItemDarkSteelHand from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.darksteel.ItemDarkSteelHand (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.base.item.staffoflevity.ItemStaffOfLevity from implemented interfaces: [crazypants/enderio/api/upgrades/IDarkSteelItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.base.item.staffoflevity.ItemStaffOfLevity (DarkSteelUpgradeMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 3 new methods: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;, getAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;Lnet/minecraft/item/ItemStack;)Lcom/google/common/collect/Multimap;, openUpgradeGui(Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/inventory/EntityEquipmentSlot;)V]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.conduits.conduit.BlockConduitBundle from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$IBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.conduits.conduit.BlockConduitBundle (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.powertools.machine.capbank.BlockCapBank from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.powertools.machine.capbank.BlockCapBank (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.powertools.machine.capbank.BlockItemCapBank from implemented interfaces: [crazypants/enderio/base/power/forge/item/IInternalPoweredItem]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.powertools.machine.capbank.BlockItemCapBank (InternalPoweredItemMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [initCapabilities(Lnet/minecraft/item/ItemStack;Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraftforge/common/capabilities/ICapabilityProvider;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Found 1 patch to apply to class crazypants.enderio.powertools.machine.monitor.BlockPowerMonitor from implemented interfaces: [crazypants/enderio/base/paint/IPaintable$ISolidBlockPaintableBlock]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Patching 1 mixins onto class crazypants.enderio.powertools.machine.monitor.BlockPowerMonitor (MobilityFlagForPaintedBlocksMixin)
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Added 1 new method: [func_149656_h(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/EnumPushReaction;]
+[09:18:11] [Server thread/INFO] [EnderCore Mixins]: Successfully patched.
+[09:18:11] [Server thread/WARN] [FTB Library]: Replacing com.feed_the_beast.ftblib.lib.config.DefaultRankConfigHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[09:18:11] [Server thread/WARN] [FML]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[09:18:12] [Server thread/INFO] [morpheus]: Loading configuration
+[09:18:12] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.m_guide.item.ItemGuide:getGuiRegistryObject:26]: com.valkyrieofnight.vliblegacy.m_guide.item.ItemGuide$GuiRegistryID@6a628e2c
+[09:18:14] [Server thread/WARN] [Sponge]: Could not find iomode owning class, assigning fallback id: enderio:block_machine_i_o_iomode
+[09:18:14] [Server thread/WARN] [Sponge]: Could not find sub owning class, assigning fallback id: enderio:block_machine_base_sub
+[09:18:14] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: enderio:block_decoration_type
+[09:18:14] [Server thread/WARN] [Sponge]: Could not find render owning class, assigning fallback id: enderio:block_fused_quartz_render
+[09:18:15] [Server thread/WARN] [Sponge]: Could not find kind owning class, assigning fallback id: enderio:block_cap_bank_kind
+[09:18:15] [Server thread/WARN] [Sponge]: Could not find render owning class, assigning fallback id: enderio:block_power_monitor_render
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.registry.VLGameRegistry$BlockItemHandler:registerBlocks:32]: TESTREGISTERINGBLOCKS
+[09:18:15] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:15] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:15] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:15] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Immersive Engineering integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: 'Thaumic Additions: reconstructed' integration for farming not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: TechReborn integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: IC2 classic integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: IC2 integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Botania integration for farming not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Natura integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: MFR integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Extra Utilities 2 integration not loaded
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dye`, expected `enderio`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Magicalcrops integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Botania integration for fertilizing not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Gardencore integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Actually Additions integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Farming Station: Metallurgy integration not loaded
+[09:18:15] [Server thread/INFO] [enderio]: Dark Steel Upgrades: TOP integration loaded
+[09:18:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:15] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:15] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:15] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:15] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:15] [Server thread/INFO] [FML]: Injecting itemstacks
+[09:18:15] [Server thread/INFO] [FML]: Itemstack injection complete
+[09:18:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[09:18:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[09:18:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[09:18:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[09:18:15] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[09:18:16] [Server thread/ERROR] [FML]: Parsing error loading recipe techguns:techguns_manual_alt
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:538) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$557/382401025.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$853/868261838.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$851/2032299069.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:16] [Server thread/ERROR] [FML]: Parsing error loading recipe techguns:techguns_manual
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$15(CraftingHelper.java:538) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$557/382401025.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$853/868261838.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$851/2032299069.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:16] [Server thread/ERROR] [FML]: Parsing error loading recipe techguns:shishkebap_alt
+com.google.gson.JsonSyntaxException: Unknown item 'techguns:shishkebap'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.oredict.ShapedOreRecipe.factory(ShapedOreRecipe.java:254) ~[ShapedOreRecipe.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$558/1885644365.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$853/868261838.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$851/2032299069.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:16] [Server thread/ERROR] [FML]: Parsing error loading recipe techguns:shishkebap
+com.google.gson.JsonSyntaxException: Unknown item 'techguns:shishkebap'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.oredict.ShapedOreRecipe.factory(ShapedOreRecipe.java:254) ~[ShapedOreRecipe.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$558/1885644365.parse(Unknown Source) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$853/868261838.apply(Unknown Source) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) [CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper$$Lambda$851/2032299069.accept(Unknown Source) [CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) [?:1.8.0_51]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `capbank_basic2normal`, expected `enderiopowertools`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `capbank_normal2vibrant`, expected `enderiopowertools`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `gogglesOfRevealing`, expected `crafttweaker`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `thaumaturge_robes_chest`, expected `crafttweaker`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `thaumaturge_robes_legs`, expected `crafttweaker`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:16] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `enderio` for name `thaumaturge_robes_feet`, expected `crafttweaker`. This could be a intended override, but in most cases indicates a broken mod.
+[09:18:17] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:17] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler FireworkHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler AutoSmeltHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler FluidSpawnHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Skipping class com.enderio.core.client.handlers.OreDictTooltipHandler, it is not loaded on this side.
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler Scheduler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler JoinMessageHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Skipping class com.enderio.core.client.handlers.SpecialTooltipHandler, it is not loaded on this side.
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Skipping class com.enderio.core.client.handlers.ClientHandler, it is not loaded on this side.
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Skipping class com.enderio.core.client.handlers.FluidVisualsHandler, it is not loaded on this side.
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler RightClickCropHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Skipping class com.enderio.core.client.handlers.EnchantTooltipHandler, it is not loaded on this side.
+[09:18:17] [Server thread/INFO] [EnderCore]: [Handlers] Registering handler XPBoostHandler to busses: [FORGE]
+[09:18:17] [Server thread/INFO] [EnderCore]: Sending dummy event to all mods
+[09:18:17] [Server thread/INFO] [EnderCore]: Reloading ingame configs for modid: endercore
+[09:18:17] [Server thread/INFO] [enderio]: Reloading config file...
+[09:18:17] [Server thread/INFO] [enderio]: Config reload finished
+[09:18:17] [Server thread/INFO] [enderio]: Reloading config file...
+[09:18:17] [Server thread/INFO] [enderio]: Config reload finished
+[09:18:17] [Server thread/INFO] [enderio]: Reloading config file...
+[09:18:17] [Server thread/INFO] [enderio]: Config reload finished
+[09:18:17] [Server thread/WARN] [Sponge]: Plugin 'endercore' is attempting to register command 'reloadServerConfigs' with an uppercase character - adjusting to 'reloadserverconfigs'
+[09:18:19] [Server thread/INFO] [enderio]: Sending whitelist message to Chisel and Bits for block blockDecoration1
+[09:18:19] [Server thread/INFO] [enderio]: Sending whitelist message to Chisel and Bits for block blockDecoration2
+[09:18:19] [Server thread/INFO] [enderio]: Sending whitelist message to Chisel and Bits for block blockDecoration3
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_dark_steel_anvil
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_dark_paper_anvil
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_basic_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_advanced_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_limited_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_big_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_big_advanced_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_existing_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_mod_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_power_item_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_soul_filter_normal
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_soul_filter_big
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_enchantment_filter_normal
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_enchantment_filter_big
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_fluid_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_not_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_or_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_and_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_nor_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_nand_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_xor_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_xnor_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_toggle_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_counting_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_sensor_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_redstone_timer_filter
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_dark_steel_helmet
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_dark_steel_chestplate
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_dark_steel_leggings
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_dark_steel_boots
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_end_steel_helmet
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_end_steel_chestplate
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_end_steel_leggings
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.item_end_steel_boots
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_conduit_bundle
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_cap_bank
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_power_monitor
+[09:18:19] [Server thread/INFO] [enderio]: Registered permission enderio.gui.block_advanced_power_monitor
+[09:18:19] [Server thread/INFO] [enderio]: Processing IMC message recipe:xml from endercore
+[09:18:19] [Server thread/INFO] [enderio]: Processing IMC message recipe:xml from endercore
+[09:18:20] [Server thread/INFO] [enderio]: Reading user recipe file user_recipes.xml
+[09:18:20] [Server thread/WARN] [enderio]: Ender IO core recipe loading has been disabled in the configuration.
+[09:18:20] [Server thread/WARN] [enderio]: This is valid, but do NOT report recipe errors to the Ender IO team!
+[09:18:21] [Server thread/INFO] [enderio]: Valid IMC recipes to be processed:
+[09:18:21] [Server thread/INFO] [enderio]:  * Enchanter: endercore:xpboost from IMC from mod 'endercore'
+[09:18:21] [Server thread/INFO] [enderio]:  * Enchanter: endercore:autosmelt from IMC from mod 'endercore'
+[09:18:21] [Server thread/INFO] [enderio]: Reading user recipe file user_recipes.xml
+[09:18:21] [Server thread/INFO] [enderio]: Enabled support for The One Probe
+[09:18:21] [Server thread/INFO] [FML]: Injecting itemstacks
+[09:18:21] [Server thread/INFO] [FML]: Itemstack injection complete
+[09:18:21] [Server thread/WARN] [enderio]: Could not find Build Craft Wrench definition. Wrench integration with other mods may fail
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\ender\ender_simple.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\ender\ender_simple.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\nether\nether_simple.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\nether\nether_simple.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\soul\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\soul\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.sg.m_generators.registry.SingleItemEntry:getItemStacks:59]:  OD egg2
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.sg.m_generators.registry.SingleItemEntry:getItemStacks:59]:  OD bone1
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.sg.m_generators.registry.SingleItemEntry:getItemStacks:59]:  OD boneWithered0
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\geothermal\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\geothermal\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\fluid_combustion\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\fluid_combustion\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\turbine\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [STDOUT]: [com.valkyrieofnight.vliblegacy.lib.json.GsonRegistry:doesFileExsist:50]: DOES: config\simplegenerators\generators\turbine\fuels.json exist: true
+[09:18:21] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 33 mods
+[09:18:21] [Server thread/INFO] [enderio]: Permission Handler is: INSTANCE
+[09:18:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[09:18:21] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[09:18:21] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[09:18:21] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[09:18:22] [Server thread/INFO] [FML]: Applying holder lookups
+[09:18:22] [Server thread/INFO] [FML]: Holder lookups applied
+[09:18:23] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[09:18:23] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancement trees
+[09:18:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[09:18:23] [Server thread/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.world.chunk.storage.ExtendedBlockStorage], Method [func_76663_a]
+[09:18:23] [Server thread/INFO] [EnderCore ASM]: Transforming net.minecraft.world.chunk.storage.ExtendedBlockStorage Finished.
+[09:18:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[09:18:25] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[09:18:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[09:18:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancement trees
+[09:18:26] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
+[09:18:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[09:18:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancement trees
+[09:18:26] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
+[09:18:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (5.170s)! For help, type "help" or "?"
+[09:18:27] [Server thread/INFO] [techgunspvpplugin]: Successfully running ExamplePlugin!!!
+[09:18:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[09:18:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancement trees
+[09:18:27] [Server thread/INFO] [FTB Library]: Reloaded server in 8ms
+[09:18:27] [Server thread/WARN] [FTB Utilities]: Sponge detected, command overriding has been disabled. If there are any issues with FTB Utilities ranks or permissions, please test them without Sponge!
+[09:18:48] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player Robocraft999 is 3b03ec2c-2fc9-4e5e-ba87-b793df93b351
+[09:18:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class techguns.capabilities.TGExtendedPlayer
+[09:18:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class techguns.capabilities.TGExtendedPlayer
+[09:18:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class techguns.capabilities.TGExtendedPlayer
+[09:18:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class techguns.capabilities.TGExtendedPlayer
+[09:18:48] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[09:18:48] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 32 mods : minecraft@1.12.2,ctgui@1.0.0,crafttweakerjei@2.0.3,theoneprobe@1.4.28,mousetweaks@2.10,netherportalfix@5.3.17,valkyrielib@1.12.2-2.0.20.1,universalmodifiers@1.12.2-1.0.16.1,jei@4.16.1.301,enderiopowertools@5.2.66,enderio@5.2.66,techguns_core@1.12.2-1.0,solarflux@12.4.11,endercore@1.12.2-0.5.76,simplegenerators@1.12.2-2.0.20.2,mcp@9.42,journeymap@1.12.2-5.7.1,FML@8.0.99.99,inventorytweaks@1.63+release.109.220f184,ironbackpacks@1.12.2-3.0.8-12,enderiobase@5.2.66,appleskin@1.0.14,morpheus@1.12.2-3.5.106,ftblib@5.4.7.2,crafttweaker@4.1.20,forge@14.23.5.2855,codechickenlib@3.2.3.358,fastleafdecay@v14,enderioconduits@5.2.66,ftbutilities@5.4.1.131,ironchest@1.12.2-7.0.67.844,techguns@2.0.2.0
+[09:18:48] [Netty Server IO #1/INFO] [journeymap]: CLIENT
+[09:18:48] [Netty Server IO #1/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, techgunspvpplugin] at CLIENT
+[09:18:48] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[09:18:49] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[09:18:49] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Robocraft999 [/127.0.0.1:63965] logged in with entity id [253] in world (minecraft:overworld/0) at (190.1573997425693, 70.8681430633933, 337.1528602516317).
+[09:18:49] [Server thread/INFO] [EnderCore]: Sending server configs to client for com.enderio.core.common.config.ConfigHandler
+[09:18:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Robocraft999 joined the game
+[09:22:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Robocraft999 has made the advancement [Hot Stuff]
+[09:22:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Robocraft999: Added 16028 to the time]
+[09:23:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Robocraft999 lost connection: Disconnected
+[09:23:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Robocraft999 left the game
+[09:23:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
+[09:23:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
+[09:23:18] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[09:23:18] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[09:23:18] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
